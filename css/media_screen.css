@@ -1,0 +1,376 @@
+@media (max-width: 1024px) {
+
+      .img {
+        width: 60%;
+        display: flex;
+      }
+
+      .img img {
+        width: 90px;
+        height: 100px;
+        float: left;
+        justify-content: center;
+      }
+      
+      .titulo {
+        font-size: 20px;
+        width: 150px;
+        float: left;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: center;
+      }
+
+      .texto {
+        width: 100%;
+        height: 126px;
+        margin-left: 190px;
+        margin-top: 5px;
+      }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .header {
+        background-color: lightblue;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 1px 3px 10px teal;
+      }
+
+      .logo {
+        width: 50%;
+        height: 50px;
+        margin: 0 0;
+        padding: 25px;
+      }
+
+      .logo img {
+        height: 30px;
+        width: 45px;
+      }
+
+      .logo .nombre_de_radio {
+        font-size: 20px;
+      }
+
+      .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        background-color: #2c3e50;
+        position: fixed;
+        left: 0;
+        top: 1000;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow: auto;
+
+        left: 100%;
+        transition: 0.3s;
+      }
+
+      .nav-menu-item {
+        line-height: 70px;
+      }
+
+      .nav-menu-link:hover {
+        background: none;
+        color: #83c5f7;
+      }
+
+      .nav-toggle {
+        display: block;
+        cursor: pointer;
+      }
+
+      .nav-toggle_vissible {
+        left: 0;
+      }
+      
+    .articulo {
+        padding: 0;
+        margin-left: 10px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        height: 70px;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img img {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 170px;
+    }
+
+    .titulo {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 17px;
+        margin-left: 200px;
+        font-size: 15px;
+    }
+
+    .texto {
+        display: block;
+        margin: 0;
+        margin-top: 100px;
+        font-size: 12px;
+    }
+
+    .radio iframe{
+        width: 100%;
+    }
+
+    .pie {
+        font-size: 7px;
+        text-align: center;
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+  .header {
+      background-color: lightblue;
+      width: 100%;
+      height: 47px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 1px 3px 10px teal;
+    }
+
+    .logo {
+      width: 50%;
+      height: 50px;
+      padding: 7px 7px;
+    }
+
+    .logo img {
+      height: 30px;
+      width: 60px;
+    }
+
+    .nombre_de_radio {
+      visibility: hidden;
+    }
+
+    .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      background-color: #2c3e50;
+      position: fixed;
+      left: 0;
+      top: 1000;
+      width: 100%;
+      padding: 20px 0;
+
+      height: calc(100% - 60px);
+      overflow: auto;
+
+      left: 100%;
+      transition: 0.3s;
+    }
+
+    .nav-menu-item {
+      line-height: 70px;
+    }
+
+    .nav-menu-link:hover {
+      background: none;
+      color: #83c5f7;
+    }
+
+    .nav-toggle {
+      display: block;
+      cursor: pointer;
+    }
+
+    .nav-toggle_vissible {
+      left: 0;
+    }
+    
+  .articulo {
+      padding: 0;
+      margin-left: 10px;
+      display: block;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .img {
+      height: 70px;
+      display: inline;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .img img {
+      width: 30px;
+      height: 30px;
+      margin-top: 10px;
+      margin-left: 100px;
+  }
+
+  .titulo {
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      margin-top: 17px;
+      margin-left: 120px;
+      font-size: 15px;
+  }
+
+  .texto {
+      display: block;
+      margin: 0;
+      margin-top: 100px;
+      font-size: 12px;
+  }
+
+  .radio iframe{
+      width: 100%;
+  }
+
+  .pie {
+      font-size: 5px;
+      padding-top: 20px;
+  }
+
+}
+
+
+@media (max-width: 375px) {
+
+  .header {
+      background-color: lightblue;
+      width: 100%;
+      height: 37px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 1px 3px 10px teal;
+    }
+
+    .logo {
+      width: 50%;
+      height: 37px;
+      padding: 7px 7px;
+    }
+
+    .logo img {
+      height: 25px;
+      width: 60px;
+    }
+
+    .nombre_de_radio {
+      visibility: hidden;
+    }
+
+    .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+      background-color: #2c3e50;
+      position: fixed;
+      left: 0;
+      top: 1000;
+      width: 100%;
+      padding: 20px 0;
+
+      height: calc(100% - 60px);
+      overflow: auto;
+
+      left: 100%;
+      transition: 0.3s;
+    }
+
+    .nav-menu-item {
+      line-height: 70px;
+    }
+
+    .nav-menu-link:hover {
+      background: none;
+      color: #83c5f7;
+    }
+
+    .nav-toggle {
+      display: block;
+      cursor: pointer;
+    }
+
+    .nav-toggle i {
+      width: 10px;
+    }
+
+    .nav-toggle_vissible {
+      left: 0;
+    }
+    
+  .articulo {
+      padding: 0;
+      display: block;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .img {
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 100px;
+      padding: 5px 5px;
+  }
+
+  .img img {
+      width: 20px;
+      height: 20px;
+      margin: 20px 20px;
+
+  }
+
+  .titulo {
+      justify-content: center;
+      align-items: center;
+      font-size: 9px;
+      margin: 20px 20px;
+  }
+
+  .texto {
+      display: block;
+      margin: 0;
+      margin-top: 50px;
+      font-size: 7px;
+      font-weight: bold;
+  }
+
+  .radio iframe{
+      width: 100%;
+  }
+
+  .pie {
+      font-size: 5px;
+      padding-top: 20px;
+  }
+
+}

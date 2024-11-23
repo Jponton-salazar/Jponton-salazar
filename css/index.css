@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(0,60%,70%, .5);
+}
+
+.section {
+  width: 100vw;
+  height: 74vh;
+}
+
+
+.header {
+  background-color: lightblue;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 3px 10px teal;
+}
+
+.logo {
+  width: 45%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.logo img {
+  height: 47px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+}
+
+.logo h2 {
+  font-family: Georgia;
+  font-size: 35px;
+  letter-spacing: 1px;
+  word-spacing: 15px;
+  margin-right: 160px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 60px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 3px 15px;
+}
+
+.nav-menu-link:hover {
+  background-color: #034534;
+  transition: 0.5s;
+}
+
+.nav-toggle {
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 60px;
+  display: none;
+}
+
+h4 {
+  font-weight: bold;
+  font-family: Verdana, Georgia, 'Times New Roman', Times, serif; 
+}
+
+.articulo {
+  width: 95%;
+  height: 120px;
+  margin: auto;
+  margin-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  padding-top: 100px;
+}
+
+.articulo .img {
+  width: 35%;
+}
+
+.img img {
+  width: 100px;
+  height: 120px;
+  float: left;
+}
+
+.titulo {
+  font-size: 20px;
+  width: 150px;
+  float: left;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 65px;
+  margin-left: 73px;
+}
+
+.texto {
+  width: 100%;
+  height: 126px;
+  margin-left: 190px;
+  margin-top: 5px;
+}
+
+.p strong cite {
+  color: red;
+}
+
+.articulo .cita {
+  float: left;
+}
+
+.pie {
+  text-align: center;
+  padding-top: 35px;
+  box-sizing: border-box;
+}
+
+.pie b {
+  color: brown;
+}
